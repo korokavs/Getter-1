@@ -1,0 +1,194 @@
+[
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550732389853,
+            "changeTime": 1550732389853,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550732389853,
+            "changeTime": 1550732389853,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550749272759,
+            "changeTime": 1550749272759,
+            "contentHash": "940ac701ddc0a39d5e6592823a72413b544d297d",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\aura",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550732389853,
+            "changeTime": 1550732389853,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\classes",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\classes",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550761005012,
+            "changeTime": 1550738355163,
+            "contentHash": "aec6bea3fd5054ccbf036d773e2c06a6f3cf5c4e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\classes\\CloneDataFromSourceObject.cls",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\classes\\CloneDataFromSourceObject.cls",
+            "isDirectory": false,
+            "size": 2970,
+            "modifiedTime": 1550760657271,
+            "changeTime": 1550760657271,
+            "contentHash": "1b9304e519341fcac66ef13247311ac084d7b0c5",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\classes\\CloneDataFromSourceObject.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\classes\\CloneDataFromSourceObject.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1550749272728,
+            "changeTime": 1550749272728,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\classes\\CloneDataFromSourceObjectTest.cls",
+        {
+            "state": "u",
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\classes\\CloneDataFromSourceObjectTest.cls",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 2139,
+            "modifiedTime": 1550761567052,
+            "changeTime": 1550761567052,
+            "contentHash": "9ab212460ba5a0ef4f732e97480344b07c8e3fde"
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\classes\\CloneDataFromSourceObjectTest.cls-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\classes\\CloneDataFromSourceObjectTest.cls-meta.xml",
+            "isDirectory": false,
+            "size": 174,
+            "modifiedTime": 1550749272743,
+            "changeTime": 1550749272743,
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550733721811,
+            "changeTime": 1550733721811,
+            "contentHash": "9ec9048dba4ace18886ead0be6775c77fb799a44",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\settings\\OrgPreference.settings-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\settings\\OrgPreference.settings-meta.xml",
+            "isDirectory": false,
+            "size": 6383,
+            "modifiedTime": 1550749272728,
+            "changeTime": 1550749272728,
+            "contentHash": "53153da293978b02d191b6ae64f72eae1e200c56",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+            "isDirectory": false,
+            "size": 18849,
+            "modifiedTime": 1550749272775,
+            "changeTime": 1550749272775,
+            "contentHash": "dfd6d51c2dea4ff7089d51264e2903de241fc930",
+            "isMetadataFile": true,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\settings",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\settings",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550749272728,
+            "changeTime": 1550749272728,
+            "contentHash": "51a767161ecb76df77be39042e42cbb2d91005fb",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\profiles",
+        {
+            "sourcePath": "C:\\Users\\Victor\\Projects\\CloneData\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1550749272759,
+            "changeTime": 1550749272759,
+            "contentHash": "dd4bc5d00d5b87ac9dcfa94ec543d354d095c25c",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ]
+]
