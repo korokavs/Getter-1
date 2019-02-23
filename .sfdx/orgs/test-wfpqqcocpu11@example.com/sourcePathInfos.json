@@ -45,14 +45,14 @@
     [
         "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes",
         {
-            "state": "u",
             "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 0,
             "modifiedTime": 1550857976000,
             "changeTime": 3373865674955,
-            "contentHash": "113aac910e4ef969ec0c348387f1acecefa22807"
+            "contentHash": "113aac910e4ef969ec0c348387f1acecefa22807",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -161,10 +161,10 @@
             "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\GetterOfRecords.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1806,
-            "modifiedTime": 1550925258000,
+            "size": 3023,
+            "modifiedTime": 1550931408000,
             "changeTime": 3373865674955,
-            "contentHash": "e4926edb2ddcfc68c481b59a67792027be965ff8"
+            "contentHash": "db0b98fb24055b9f67d847d5a8ef816c0b67dce0"
         }
     ],
     [
@@ -183,14 +183,14 @@
     [
         "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\GetterOfRecordsTest.cls-meta.xml",
         {
-            "state": "u",
             "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\GetterOfRecordsTest.cls-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 174,
             "modifiedTime": 1550925258000,
             "changeTime": 3373865674955,
-            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730"
+            "contentHash": "ab3ac94968e57930b88820ab5438fa820ed36730",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -200,10 +200,10 @@
             "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\GetterOfRecordsTest.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 680,
-            "modifiedTime": 1550925258000,
+            "size": 931,
+            "modifiedTime": 1550931408000,
             "changeTime": 3373865674955,
-            "contentHash": "096113fb8a3f68d048a98fd7506f7683ab754f35"
+            "contentHash": "9f4492328757382e3af2d8b4956a0ffcd04bb14c"
         }
     ]
 ]

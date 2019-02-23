@@ -10,6 +10,10 @@
         GetterOfRecords getter = new GetterOfRecords(Account.sObjectType);
         System.assert(getter.getChildRelationships().size() > 0);
     }
+    @isTest public static void queriesForChildRelationshipsTest(){
+        GetterOfRecords getter = new GetterOfRecords(Account.sObjectType);
+        System.assert(getter.queriesForChildRelationships(getter.getChildRelationships()).size() > 0);
+    }
     
 
 }
