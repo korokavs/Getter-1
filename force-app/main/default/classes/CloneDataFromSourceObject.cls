@@ -24,6 +24,7 @@ public class CloneDataFromSourceObject {
     public Map<String, Schema.SObjectField> getFields(sObjectType type){
         return type.getDescribe().fields.getMap();
     }
+    
     public Map<String, Schema.ChildRelationship> getChildRelationships(sObjectType type){
         Map<String, Schema.ChildRelationship> nameToChildRelationshipMap = new Map<String, Schema.ChildRelationship>();
         for(Schema.ChildRelationship childRelationship_i : type.getDescribe().getChildRelationships()){
@@ -33,6 +34,7 @@ public class CloneDataFromSourceObject {
         }
         return nameToChildRelationshipMap;
     }
+    
     public List<String> queriesForChildRelationShips(sObjectType type, Map<String, Schema.ChildRelationship> childRelationships){
         List<String> queries = new List<String>();
         if(childRelationships.size() != 0){
@@ -45,6 +47,18 @@ public class CloneDataFromSourceObject {
                                                    .fields
                                                    .getMap()
                                                    .keySet());
+            Map<String, sObjectField> nameTosObjectFieldMap = childRelationships
+                                                   .get(childRelationship_i)
+                                                   .getChildSObject()
+                                                   .getDescribe()
+                                                   .fields
+                                                   .getMap();
+            for(String key : nameTosObjectFieldMap.keySet()){
+                if(nameTosObjectFieldMap.get(key).getDescribe().getType() == Schema.DisplayType.BASE64){
+                    fields.remove(fields.indexOf(key));
+                }
+            }
+            
             query += String.join(fields, ', ') + ' FROM ' + String.valueOf(type) + '.' + childRelationship_i + ')';
             queries.add(query);
         }
