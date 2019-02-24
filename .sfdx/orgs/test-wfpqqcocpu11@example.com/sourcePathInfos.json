@@ -56,64 +56,6 @@
         }
     ],
     [
-        "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\CloneDataFromSourceObject.cls",
-        {
-            "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\CloneDataFromSourceObject.cls",
-            "isDirectory": false,
-            "size": 3663,
-            "modifiedTime": 1550914356000,
-            "changeTime": 3373865674955,
-            "contentHash": "8f06576de79af4508396d87699dd4598418e6073",
-            "isMetadataFile": false,
-            "state": "u"
-        }
-    ],
-    [
-        "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\CloneDataFromSourceObject.cls-meta.xml",
-        {
-            "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\CloneDataFromSourceObject.cls-meta.xml",
-            "isDirectory": false,
-            "size": 179,
-            "modifiedTime": 1550857976000,
-            "changeTime": 3373865674955,
-            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
-            "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\CloneDataFromSourceObjectTest.cls",
-        {
-            "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\CloneDataFromSourceObjectTest.cls",
-            "isDirectory": false,
-            "size": 2177,
-            "modifiedTime": 1550857976000,
-            "changeTime": 3373865674955,
-            "contentHash": "28346b9c54677caa75dfbe187187a711894a41bb",
-            "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
-        "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\CloneDataFromSourceObjectTest.cls-meta.xml",
-        {
-            "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\CloneDataFromSourceObjectTest.cls-meta.xml",
-            "isDirectory": false,
-            "size": 179,
-            "modifiedTime": 1550857976000,
-            "changeTime": 3373865674955,
-            "contentHash": "463a780dc1b11f5d645b2a49558ed28551f48927",
-            "isMetadataFile": true,
-            "state": "u",
-            "isWorkspace": false,
-            "isArtifactRoot": false
-        }
-    ],
-    [
         "D:\\Sfdx\\Project\\Getter",
         {
             "sourcePath": "D:\\Sfdx\\Project\\Getter",
@@ -196,14 +138,14 @@
     [
         "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\GetterOfRecordsTest.cls",
         {
-            "state": "u",
             "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\GetterOfRecordsTest.cls",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 1771,
             "modifiedTime": 1551033728000,
             "changeTime": 3373865674955,
-            "contentHash": "e09638bec2034a236818e03ca94262b55cd17106"
+            "contentHash": "e09638bec2034a236818e03ca94262b55cd17106",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ]
 ]
