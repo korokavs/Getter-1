@@ -8,32 +8,32 @@ public class GetterOfRecords {
     // Initialize in constructor
     sObjectType type;
     
-    // Empty Construcor For Tests
-    public GetterOfRecords(){}
-    
     // Constractor for using class
     public GetterOfRecords(sObjectType type){
     this.type = type;    
     }   
-    
-    // Final Method
-    public List<sObject> getRecords(){
-     List<sObject> allRecords = new List<sObject>();
         
-     return allRecords;   
-    }
-    
     // Methods to get fields, child relationships and childs relationship fields except binary
     public Map<String, Schema.SObjectField> getFields(){
         Map<String, Schema.SObjectField> fields = type.getDescribe().fields.getMap();
         return fields;
     }
-    
-    public Map<String, Schema.ChildRelationship> getChildRelationships(){
+
+    							// args may be null, empty new List<String>(), or new List<String>(String1, String2, ...)
+    public Map<String, Schema.ChildRelationship> getChildRelationships(List<String> chosenChildRelationships){ 
         Map<String, Schema.ChildRelationship> nameToChildRelationshipMap = new Map<String, Schema.ChildRelationship>();
-        for(Schema.ChildRelationship childRelationship_i : type.getDescribe().getChildRelationships()){
-            if(childRelationship_i.relationshipname != null){
-                nameToChildRelationshipMap.put(String.valueOf(childRelationship_i.relationshipname), childRelationship_i);
+        if(type.getDescribe().getChildRelationships().size() > 0){           
+            for(Schema.ChildRelationship childRelationship_i : type.getDescribe().getChildRelationships()){  
+                if(chosenChildRelationships == null || chosenChildRelationships.size() == 0){        
+                    nameToChildRelationshipMap.put(String.valueOf(childRelationship_i.relationshipname), childRelationship_i);    
+                }
+                else {
+                    for(String chosenChildRelationship : chosenChildRelationships){
+                        if(chosenChildRelationship == String.valueOf(childRelationship_i.relationshipname)){
+                          nameToChildRelationshipMap.put(String.valueOf(childRelationship_i.relationshipname), childRelationship_i);  
+                        }  
+                    }
+                }
             }
         }
         return nameToChildRelationshipMap;
@@ -50,7 +50,8 @@ public class GetterOfRecords {
     }
     
     //Methods to create queries
-    public List<String> queriesForChildRelationships(Map<String, Schema.ChildRelationship> childRelationships){
+    public Map<String, String> queriesForEachChildRelationships(Map<String, Schema.ChildRelationship> childRelationships){
+        Map<String, String> childRelationShipNameToQueryMap = new Map<String, String>();
         List<String> queries = new List<String>();
         if(childRelationships.size() > 0){
             for(String childRelationship_i : childRelationships.keySet()){
@@ -62,8 +63,11 @@ public class GetterOfRecords {
                                                                                   .getMap()).keySet());
                 query += String.join(fields, ', ') + ' FROM ' + String.valueOf(type) + '.' + String.valueOf(childRelationship_i) + ')';
                 queries.add(query);
+                childRelationShipNameToQueryMap.put(childRelationship_i, query);
             }
         }
-        return queries;
+       // return queries;
+       		return childRelationShipNameToQueryMap;
     }
+    
 }

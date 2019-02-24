@@ -8,12 +8,15 @@
     }
     @isTest public static void getChildRelationshipsTest(){
         GetterOfRecords getter = new GetterOfRecords(Account.sObjectType);
-        System.assert(getter.getChildRelationships().size() > 0);
+        System.assert(getter.getChildRelationships(null).size() > 0);
     }
-    @isTest public static void queriesForChildRelationshipsTest(){
+    @isTest public static void queriesForEachChildRelationshipsTest(){
         GetterOfRecords getter = new GetterOfRecords(Account.sObjectType);
-        System.assert(getter.queriesForChildRelationships(getter.getChildRelationships()).size() > 0);
+        System.debug(String.join(getter.queriesForEachChildRelationships(getter.getChildRelationships(null)).values(), ', '));
+        System.assert(getter.queriesForEachChildRelationships(getter.getChildRelationships(null)).size() > 0);
+        System.debug(String.join(getter.queriesForEachChildRelationships(getter.getChildRelationships(new List<String>{'Attachments', 'WorkOrders'})).values(),', '));
+        System.assert(getter.queriesForEachChildRelationships(getter.getChildRelationships(new List<String>{'Attachments', 'WorkOrders'})).size() == 2);
     }
-    
+        
 
 }
