@@ -161,10 +161,10 @@
             "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\GetterOfRecords.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 3739,
-            "modifiedTime": 1550998206000,
+            "size": 4530,
+            "modifiedTime": 1551013634000,
             "changeTime": 3373865674955,
-            "contentHash": "a0deaf0b981fafc8e0b73d35fb17132cd6ca5cb0"
+            "contentHash": "fd835513ac034ab8feb0de314911e7869acb70d1"
         }
     ],
     [
@@ -200,10 +200,10 @@
             "sourcePath": "D:\\Sfdx\\Project\\Getter\\force-app\\main\\default\\classes\\GetterOfRecordsTest.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1398,
-            "modifiedTime": 1550998206000,
+            "size": 1960,
+            "modifiedTime": 1551013636000,
             "changeTime": 3373865674955,
-            "contentHash": "86472a92d46642633aa1936d27e9bd5e6fc1ceab"
+            "contentHash": "7f407d2ae7e2955116323d65e4bf946287317fae"
         }
     ]
 ]
