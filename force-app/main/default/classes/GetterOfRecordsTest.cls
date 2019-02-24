@@ -8,9 +8,9 @@
     }
     @isTest public static void getChildRelationshipsTest(){
         GetterOfRecords getter = new GetterOfRecords(Account.sObjectType);
-        System.assert(getter.getChildRelationships(null).size() > 0);
-        List<String> childs = new List<String>(getter.getChildRelationships(null).keySet());
-        System.debug(String.join(childs, ', '));
+        System.assert(getter.getChildRelationships().size() > 0);
+        //List<String> childs = new List<String>(getter.getChildRelationships(null).keySet());
+        //System.debug(String.join(childs, ', '));
     }
     @isTest public static void queriesForEachChildRelationshipsTest(){
         GetterOfRecords getter = new GetterOfRecords(Account.sObjectType);
@@ -19,13 +19,10 @@
         //System.debug(String.join(getter.queriesForEachChildRelationships(getter.getChildRelationships(new List<String>{'Tasks'})).values(),', '));
         System.assert(getter.queriesForEachChildRelationships(getter.getChildRelationships(new List<String>{'Attachments', 'WorkOrders'})).size() == 2);
     }
-    @isTest public static void batchesOfQueriesForChildRealationshipsTest(){
+    @isTest public static void queryForFieldsTest(){
         GetterOfRecords getter = new GetterOfRecords(Account.sObjectType);
-        Map<String, ChildRelationship> childRelationships = getter.getChildRelationships(null);
-        List<String> batches = getter.batchesOfQueriesForChildRealationships(childRelationships);
-        System.assert(batches.size() == 3);
-        //System.debug(batches.get(0));
-    }
-        
+        //System.debug(getter.queryForFields());
+        System.assert(getter.queryForFields().length() != null);
+    }        
 
 }
