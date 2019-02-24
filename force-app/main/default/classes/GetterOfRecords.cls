@@ -36,6 +36,11 @@ public class GetterOfRecords {
                 }
             }
         }
+        for(String name : nameToChildRelationshipMap.keySet()){
+            if(name == null || name == ''){
+               nameToChildRelationshipMap.remove(name); 
+            }
+        }
         return nameToChildRelationshipMap;
     }  
     
